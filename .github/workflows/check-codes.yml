@@ -1,14 +1,7 @@
 name: Check Codes
 
 on:
-  push:
-    paths:
-      - '**.java'
-      - '**.properties'
-  pull_request:
-    paths:
-      - '**.java'
-      - '**.properties'
+  workflow_dispatch:
 
 jobs:
   build:
