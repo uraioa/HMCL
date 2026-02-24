@@ -523,12 +523,14 @@ public class CreateAccountPane extends JFXDialogLayout implements DialogAware {
         }
 
         private boolean requiresEmailAsUsername() {
+            /*
             if ((factory instanceof AuthlibInjectorAccountFactory) && this.server != null) {
                 return !server.isNonEmailLogin();
             }
             if (factory instanceof BoundAuthlibInjectorAccountFactory bound) {
                 return !bound.getServer().isNonEmailLogin();
             }
+            */
             return false;
         }
 
